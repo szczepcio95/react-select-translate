@@ -1,0 +1,32 @@
+{
+  "name": "react-select-translate",
+  "version": "1.0.0",
+  "description": "React component responsible for translating selected elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szczepcio95/react-select-translate.git"
+  },
+  "author": "Jakub Szczepanik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szczepcio95/react-select-translate/issues"
+  },
+  "homepage": "https://github.com/szczepcio95/react-select-translate#readme",
+  "peerDependencies": {
+    "react": "^16.6.1",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
