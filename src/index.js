@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class DummyComponent extends Component {
+export default class Translateable extends React.Component {
 
     render () {
 
